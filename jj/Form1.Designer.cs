@@ -34,9 +34,9 @@ namespace jj
             // 
             // groupBox1
             // 
-            this.groupBox1.Location = new System.Drawing.Point(548, 116);
+            this.groupBox1.Location = new System.Drawing.Point(249, 94);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.Size = new System.Drawing.Size(499, 122);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
