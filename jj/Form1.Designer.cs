@@ -31,6 +31,7 @@ namespace jj
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -49,11 +50,21 @@ namespace jj
             this.panel1.Size = new System.Drawing.Size(200, 100);
             this.panel1.TabIndex = 0;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(-23, -46);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(200, 100);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -66,6 +77,7 @@ namespace jj
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
 
